@@ -1,5 +1,6 @@
-# OpenShiftVirtualization
-# Defining File System types for VMs:
+# OpenShift Virtualization
+
+# Defining File System Types for VM:
 
 ## Create the rhel9 guest image:
 
@@ -16,31 +17,32 @@
 ![Screenshot 2024-04-03 at 6 29 29 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/bc21debe-9ec0-4d04-87cd-f5306699758c)
 
 
-Download the qcow2 image to your local system.
+## Download the qcow2 image to your local system:
 
 ![Screenshot 2024-04-03 at 6 34 24 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/6444d663-18e9-46e0-8da3-a36562d3ce94)
 
 
-Copy the image to your wokring server.
+## Copy the image to your working server
 
 ![Screenshot 2024-04-03 at 6 37 31 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/ae4d5505-9041-4819-aa75-53d6f65896c0)
 
-Compress the qcow2 image for faster performance.
+
+## Compress the qcow2 image for faster performance:
 
 ![Screenshot 2024-04-03 at 6 41 04 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/f3f95472-498b-491e-8bfe-f17af5c2c884)
 
 
-Login to OCP cli:
+## Login to OCP cli:
 
 ![Screenshot 2024-04-03 at 6 47 16 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/4bd659c6-86ed-4833-9581-e63bb6a67a23)
 
-Use below command to upload the image:
+## Use below command to upload the image:
 
 virtctl image-upload dv rhel9-with-fs --size=30Gi --image-path=/home/bsahu/composer-api-37841dfb-f81c-4a11-be2f-e463f59dcf29-disk.qcow2.gz --force-bind --storage-class=lvms-vg1 --access-mode=ReadWriteOnce --insecure
 
 ![Screenshot 2024-04-03 at 6 58 59 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/faba85f3-6566-4db9-8a15-a1a53acdf04e)
 
-You will see PVC , PV and pods status on OCP console.
+## You will see PVC , PV and pods status on OCP console:
 
 ![Screenshot 2024-04-03 at 6 59 20 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/8f62d7cf-7a9e-444a-9fda-41c72bdb6f4a)
 
@@ -48,15 +50,15 @@ You will see PVC , PV and pods status on OCP console.
 
 ![Screenshot 2024-04-03 at 6 59 39 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/6ca38042-9574-4850-9b09-52d43e472d41)
 
-Create a VM:
+## Create a VM:
+
 VIrtualization -> VirtualMachines -> Create from Template -> Select rhel9 -> Customize VM -> select Disk -> edit rootdisk -> Use existing PVC -> Create VM
  
 ![Screenshot 2024-04-03 at 7 00 36 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/c55f0650-ce6f-4991-ae30-9c8b4023ca03)
 
 ![Screenshot 2024-04-03 at 7 11 12 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/5d54199d-f633-4a90-b5c9-e470dc332aed)
 
-
-You will see PVC , PV and pods on OCP console.
+## You will see PVC , PV and pods status on OCP console:
 
 ![Screenshot 2024-04-03 at 7 12 40 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/ada8da38-81b6-42ce-81be-a119c0d823d6)
 
@@ -65,7 +67,7 @@ You will see PVC , PV and pods on OCP console.
 ![Screenshot 2024-04-03 at 7 13 11 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/d99cd1ab-f2e3-4b24-9513-60e30608a1b6)
 
 
-You will see VM is running.
+## You will see VM is running.
 
 ![Screenshot 2024-04-03 at 7 13 59 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/1dc8851d-873e-46b0-9822-b94fd9570e7f)
 
@@ -78,7 +80,7 @@ File system on VM console:
 ![Screenshot 2024-04-03 at 7 17 28 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/848f6689-3e7e-4928-b7cb-a7322add821a)
 
 
-Links to refer:
+### Links to refer:
 
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/creating_customized_images_by_using_insights_image_builder/index#proc_creating-a-customized-rhel-guest-system-image-using-image-builder_assembly_creating-a-customized-rhel-guest-image-using-red-hat-image-builder
 
