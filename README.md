@@ -51,6 +51,7 @@ virtctl image-upload dv rhel9-with-fs --size=30Gi --image-path=/home/bsahu/compo
 ## Create a VM:
 
 Virtualization -> VirtualMachines -> Create from Template -> Select rhel9 -> Customize VM -> Select Disk -> Edit rootdisk -> Use existing PVC -> Create VM
+Go to Scripts and update the cloud-init data to initialize with your specific username.
  
 ![Screenshot 2024-04-03 at 7 00 36 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/c55f0650-ce6f-4991-ae30-9c8b4023ca03)
 
