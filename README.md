@@ -42,11 +42,11 @@ virtctl image-upload dv rhel9-with-fs --size=30Gi --image-path=/home/bsahu/compo
 
 ## You will see PVC , PV and cdi-upload pod status on OCP console:
 
-![Screenshot 2024-04-03 at 6 59 20 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/8f62d7cf-7a9e-444a-9fda-41c72bdb6f4a)
+![Screenshot 2024-04-03 at 8 05 25 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/94fb13de-6fe1-4f48-b9db-ce3cdf8f9505)
 
-![Screenshot 2024-04-03 at 6 59 29 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/ead5964a-c464-4c85-bf47-767dec69e9a8)
+![Screenshot 2024-04-03 at 8 05 37 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/0635429c-c599-4558-b902-f63c1c742f8c)
 
-![Screenshot 2024-04-03 at 6 59 39 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/6ca38042-9574-4850-9b09-52d43e472d41)
+![Screenshot 2024-04-03 at 8 05 46 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/7f9eba62-dc04-4fbf-9ead-eab69951910d)
 
 ## Create a VM:
 
@@ -75,9 +75,13 @@ Go to Scripts and update the cloud-init data to initialize with your specific us
 
 ![Screenshot 2024-04-03 at 7 16 01 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/359fc28a-93a3-489b-89ab-cbf1e54a910d)
 
-## File system on VM console:
+## File system on console:
 
 ![Screenshot 2024-04-03 at 7 17 28 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/848f6689-3e7e-4928-b7cb-a7322add821a)
+
+## Resource usage of VM:
+
+![Screenshot 2024-04-03 at 8 07 59 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/d8f92155-affd-48f2-b3a0-d059dce7f3d7)
 
 
 ### Links to refer:
