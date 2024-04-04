@@ -14,10 +14,8 @@
 
 ![Screenshot 2024-04-03 at 6 29 29 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/b0bbafd7-b237-4f02-94ea-16e6487acddf)
 
-![Screenshot 2024-04-03 at 6 29 29 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/bc21debe-9ec0-4d04-87cd-f5306699758c)
 
-
-## Download the qcow2 image to your local system:
+## Download the qcow2 image to your local system once ready:
 
 ![Screenshot 2024-04-03 at 6 34 24 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/6444d663-18e9-46e0-8da3-a36562d3ce94)
 
@@ -42,7 +40,7 @@ virtctl image-upload dv rhel9-with-fs --size=30Gi --image-path=/home/bsahu/compo
 
 ![Screenshot 2024-04-03 at 6 58 59 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/faba85f3-6566-4db9-8a15-a1a53acdf04e)
 
-## You will see PVC , PV and pods status on OCP console:
+## You will see PVC , PV and cdi-upload pod status on OCP console:
 
 ![Screenshot 2024-04-03 at 6 59 20 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/8f62d7cf-7a9e-444a-9fda-41c72bdb6f4a)
 
@@ -52,13 +50,13 @@ virtctl image-upload dv rhel9-with-fs --size=30Gi --image-path=/home/bsahu/compo
 
 ## Create a VM:
 
-VIrtualization -> VirtualMachines -> Create from Template -> Select rhel9 -> Customize VM -> select Disk -> edit rootdisk -> Use existing PVC -> Create VM
+Virtualization -> VirtualMachines -> Create from Template -> Select rhel9 -> Customize VM -> Select Disk -> Edit rootdisk -> Use existing PVC -> Create VM
  
 ![Screenshot 2024-04-03 at 7 00 36 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/c55f0650-ce6f-4991-ae30-9c8b4023ca03)
 
 ![Screenshot 2024-04-03 at 7 11 12 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/5d54199d-f633-4a90-b5c9-e470dc332aed)
 
-## You will see PVC , PV and pods status on OCP console:
+## You will see PVC , PV and virt-launcher pod status on OCP console:
 
 ![Screenshot 2024-04-03 at 7 12 40 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/ada8da38-81b6-42ce-81be-a119c0d823d6)
 
@@ -71,11 +69,11 @@ VIrtualization -> VirtualMachines -> Create from Template -> Select rhel9 -> Cus
 
 ![Screenshot 2024-04-03 at 7 13 59 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/1dc8851d-873e-46b0-9822-b94fd9570e7f)
 
-Login to console and check the rhel version and file system:
+## Login to console and check the rhel version and file system:
 
 ![Screenshot 2024-04-03 at 7 16 01 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/359fc28a-93a3-489b-89ab-cbf1e54a910d)
 
-File system on VM console:
+## File system on VM console:
 
 ![Screenshot 2024-04-03 at 7 17 28 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/848f6689-3e7e-4928-b7cb-a7322add821a)
 
