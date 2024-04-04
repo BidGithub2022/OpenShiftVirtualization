@@ -40,6 +40,9 @@ virtctl image-upload dv rhel9-with-fs --size=30Gi --image-path=/home/bsahu/compo
 
 ![Screenshot 2024-04-03 at 6 58 59 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/faba85f3-6566-4db9-8a15-a1a53acdf04e)
 
+*** I was using 4.15 OCP and topolvm.io as my storage class and was getting "Data Volume failed to initiate upload" while doing through the OCP console.
+Checked with experts and got to know that "since TopoLVM is WaitForFIrstConsumer, I suspect the issue is that there is no consumer and thus the volume won't bind and the pod won't start". The suggestion was to use "--force-bind" flag.
+
 ## You will see PVC , PV and cdi-upload pod status on OCP console:
 
 ![Screenshot 2024-04-03 at 8 05 25 PM](https://github.com/BidGithub2022/OpenShiftVirtualization/assets/113651761/94fb13de-6fe1-4f48-b9db-ce3cdf8f9505)
