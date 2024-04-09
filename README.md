@@ -3,6 +3,8 @@
 ## Contents
 
 - [Defining File System Configurations for VM](#Defining-File-System-Configurations-for-VM)
+- [Windows VM](#Windows-VM)
+___
 
 ## Defining File System Configurations for VM:
 
@@ -102,6 +104,8 @@ https://docs.openshift.com/container-platform/4.15/cli_reference/openshift_cli/g
 https://docs.openshift.com/container-platform/4.15/virt/virtual_machines/creating_vms_custom/virt-creating-vms-uploading-images.html
 
 
-
+## Windows VM
+This is a 3 mins video which will walk you through creating an windows VM: https://youtu.be/Kty3hUBwk54
+Supported and Certified guests: https://access.redhat.com/articles/973163#thirdpartyguests
 
    
