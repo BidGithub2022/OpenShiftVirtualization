@@ -1,6 +1,10 @@
 # OpenShift Virtualization
 
-# Defining File System Configurations for VM:
+## Contents
+
+- [Defining File System Configurations for VM](#Defining-File-System-Configurations-for-VM)
+
+## Defining File System Configurations for VM:
 
 ## Create the rhel9 guest image:
 
