@@ -3,7 +3,7 @@
 ## Contents
 
 - [Defining File System Configurations for VM](#Defining-File-System-Configurations-for-VM)
-- [Windows VM](#Windows-VM)
+- [Windows VM](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/CreatingWindowsVM.md)
 ___
 
 ## Defining File System Configurations for VM:
