@@ -8,4 +8,4 @@ Automating Windows VM creation with OpenShift Virtualization: https://www.youtub
 
 Creating a Golden Image for Windows VMs in OpenShift Virtualization: https://www.redhat.com/en/blog/creating-a-golden-image-for-windows-vms-in-openshift-virtualization
 
-OpenShift PiPelines: https://docs.openshift.com/pipelines/1.14/about/op-release-notes.html
+OpenShift Pipelines: https://docs.openshift.com/pipelines/1.14/about/op-release-notes.html
