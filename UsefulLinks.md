@@ -12,3 +12,6 @@ https://access.redhat.com/documentation/en-us/workload_availability_for_red_hat_
 Automate VM Lifecycle with OpenShift Virtualization & Ansible: https://www.youtube.com/watch?v=_cf-7XJvKAY
 
 Streamline VMware to OpenShift Virtualization Migration with Ansible Automation Platform: https://www.youtube.com/watch?v=oaKMF4s3d3s
+
+## Backup restore snapshots
+https://docs.openshift.com/container-platform/4.15/virt/backup_restore/virt-backup-restore-snapshots.html
