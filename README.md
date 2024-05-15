@@ -4,6 +4,10 @@
 
 - [Defining File System Configurations for VM](#Defining-File-System-Configurations-for-VM)
 - [Windows VM](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/CreatingWindowsVM.md)
+- [ExpandingVMDisk](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/ExpandingVMDisk.md)
+- [RunningVMOnSpecificNode](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/RunningVMOnSpecificNode.md)
+- [UserAccess](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/UserAccess.md)
+- [UsefulLinks](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/UsefulLinks.md)
 ___
 
 ## Defining File System Configurations for VM:
