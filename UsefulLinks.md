@@ -21,6 +21,19 @@ https://docs.openshift.com/container-platform/4.15/virt/backup_restore/virt-back
 https://console.redhat.com/openshift/install/metal
 https://docs.openshift.com/container-platform/4.15/installing/index.html
 
+## Ingress Operator in OpenShift Container Platform:
+
+https://docs.openshift.com/container-platform/4.15/networking/ingress-operator.html
+
+The Ingress Operator makes it possible for external clients to access your service by deploying and managing one or more HAProxy-based Ingress Controllers (https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)  to handle routing. You can use the Ingress Operator to route traffic by specifying OpenShift Container Platform Route and Kubernetes Ingress resources. 
+
+https://www.f5.com/products/nginx/nginx-ingress-controller
+
+
+
+
+
+
 
 
 
