@@ -13,5 +13,17 @@ Automate VM Lifecycle with OpenShift Virtualization & Ansible: https://www.youtu
 
 Streamline VMware to OpenShift Virtualization Migration with Ansible Automation Platform: https://www.youtube.com/watch?v=oaKMF4s3d3s
 
-## Backup restore snapshots
+## Backup restore snapshots:
 https://docs.openshift.com/container-platform/4.15/virt/backup_restore/virt-backup-restore-snapshots.html
+
+## Cluster Installation methods:
+
+https://console.redhat.com/openshift/install/metal
+https://docs.openshift.com/container-platform/4.15/installing/index.html
+
+
+
+
+
+
+
