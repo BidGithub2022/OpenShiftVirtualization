@@ -7,6 +7,9 @@
 - [ExpandingVMDisk](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/ExpandingVMDisk.md)
 - [RunningVMOnSpecificNode](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/RunningVMOnSpecificNode.md)
 - [UserAccess](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/UserAccess.md)
+- [Networking](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/Networking.md)
+- [Backup&Restore](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/Backup%26Restore.md)
+- [ClusterUpdate](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/ClusterUpdate.md)
 - [UsefulLinks](https://github.com/BidGithub2022/OpenShiftVirtualization/blob/main/UsefulLinks.md)
 ___
 
