@@ -1,5 +1,8 @@
 # Useful Links:
 
+## Master Link:
+https://docs.openshift.com/container-platform/4.15/virt/about_virt/about-virt.html
+
 ## Live Migration:
 https://docs.openshift.com/container-platform/4.15/virt/live_migration/virt-configuring-live-migration.html
 
