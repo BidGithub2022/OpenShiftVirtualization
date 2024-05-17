@@ -13,6 +13,8 @@ Automate VM Lifecycle with OpenShift Virtualization & Ansible: https://www.youtu
 
 Streamline VMware to OpenShift Virtualization Migration with Ansible Automation Platform: https://www.youtube.com/watch?v=oaKMF4s3d3s
 
+Creates an Azure Red Hat OpenShift cluster: https://github.com/ryannix123/aro_ansible/blob/d422a48f6e96984204c38e340ae979de03e39bd5/aro_deployment.yaml#L47
+
 ## Backup restore snapshots:
 https://docs.openshift.com/container-platform/4.15/virt/backup_restore/virt-backup-restore-snapshots.html
 
